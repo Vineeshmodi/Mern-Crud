@@ -1,38 +1,70 @@
-.App {
+.add_btn {
+  float: right;
+}
+.container {
+  overflow: auto;
+}
+.left_view h3 {
+  font-size: 23px;
+}
+.addbtn {
+  float: right;
+}
+.add_btn {
+  border: 2px solid black;
+}
+.add_btn:hover {
+  border: 5px solid orangered;
+  background-color: black;
+}
+.table {
+  background-color: #b1b1b1b1;
+  z-index: 21;
+}
+.mt-5 {
+  background-image: url(./bc.jpg);
+  height: auto;
+  margin-top: 220px;
+}
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(144, 129, 129);
+  color: black;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-shadow: palevioletred;
+  align-items: center;
+}
+.footer p {
+  margin-top: 15px;
+}
+.collapse {
+  margin-left: 95px;
+  font-size: 30px;
+}
+.nav-link {
+  color: red;
+  border: 2px solid black;
+  margin: 0px 10px;
+  border-radius: 25px;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-link:hover {
+  background-color: white;
+  border: 2px solid green;
+  margin: 0px 10px;
+  border-radius: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.collapse li {
+  color: red;
+}
+.navbar {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 227, 2, 0),
+    rgb(193, 111, 216)
+  );
 }
